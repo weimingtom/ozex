@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+
+<datums>
+
+<datum name="Adindan" ellipsoid="Clarke 1880" a="6378249.145000" invf="293.465000" dx="-166.000000" dy="-15.000000" dz="204.000000"/>
+<datum name="AFG" ellipsoid="Krassovsky 1940" a="6378245.000000" invf="298.300000" dx="-43.000000" dy="-163.000000" dz="45.000000"/>
+<datum name="Ain-El-Abd" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-150.000000" dy="-251.000000" dz="-2.000000"/>
+<datum name="Alaska-NAD27" ellipsoid="Clarke 1866" a="6378206.400000" invf="294.978698" dx="-5.000000" dy="135.000000" dz="172.000000"/>
+<datum name="Alaska-Canada" ellipsoid="Clarke 1880" a="6378249.145000" invf="293.465000" dx="-9.000000" dy="151.000000" dz="185.000000"/>
+<datum name="Anna-1-Astro" ellipsoid="Australian National" a="6378160.000000" invf="298.250000" dx="-491.000000" dy="-22.000000" dz="435.000000"/>
+<datum name="ARC 1950 Mean" ellipsoid="Clarke 1880" a="6378249.145000" invf="293.465000" dx="-143.000000" dy="-90.000000" dz="-294.000000"/>
+<datum name="ARC 1960 Mean" ellipsoid="Clarke 1880" a="6378249.145000" invf="293.465000" dx="-160.000000" dy="-8.000000" dz="-300.000000"/>
+<datum name="Asc Island 58" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-207.000000" dy="107.000000" dz="52.000000"/>
+<datum name="Astro B4" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="114.000000" dy="-116.000000" dz="-333.000000"/>
+<datum name="Astro Beacon E" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="145.000000" dy="75.000000" dz="-272.000000"/>
+<datum name="Astro pos 71/4" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-320.000000" dy="550.000000" dz="-494.000000"/>
+<datum name="Astro stn 52" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="124.000000" dy="-234.000000" dz="-25.000000"/>
+<datum name="Australia Geo 1984" ellipsoid="Australian National" a="6378160.000000" invf="298.250000" dx="-134.000000" dy="-48.000000" dz="149.000000"/>
+<datum name="Bahamas NAD27" ellipsoid="Clarke 1880" a="6378249.145000" invf="293.465000" dx="-4.000000" dy="154.000000" dz="178.000000"/>
+<datum name="Bellevue IGN" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-127.000000" dy="-769.000000" dz="472.000000"/>
+<datum name="Bermuda 1957" ellipsoid="Clarke 1880" a="6378249.145000" invf="293.465000" dx="-73.000000" dy="213.000000" dz="296.000000"/>
+<datum name="Bukit Rimpah" ellipsoid="Bessel 1841" a="6377397.155000" invf="299.152813" dx="-384.000000" dy="664.000000" dz="-48.000000"/>
+<datum name="Camp_Area_Astro" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-104.000000" dy="-129.000000" dz="239.000000"/>
+<datum name="Campo_Inchauspe" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-148.000000" dy="136.000000" dz="90.000000"/>
+<datum name="Canada_Mean(NAD27)" ellipsoid="Clarke 1866" a="6378206.400000" invf="294.978698" dx="-10.000000" dy="158.000000" dz="187.000000"/>
+<datum name="Canal_Zone_(NAD27)" ellipsoid="Clarke 1866" a="6378206.400000" invf="294.978698" dx="0.000000" dy="125.000000" dz="201.000000"/>
+<datum name="Canton_Island_1966" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="298.000000" dy="-304.000000" dz="-375.000000"/>
+<datum name="Cape" ellipsoid="Clarke 1880" a="6378249.145000" invf="293.465000" dx="-136.000000" dy="-108.000000" dz="-292.000000"/>
+<datum name="Cape_Canaveral_mean" ellipsoid="Clarke 1866" a="6378206.400000" invf="294.978698" dx="-2.000000" dy="150.000000" dz="181.000000"/>
+<datum name="Carribean NAD27" ellipsoid="Clarke 1866" a="6378206.400000" invf="294.978698" dx="-7.000000" dy="152.000000" dz="178.000000"/>
+<datum name="Carthage" ellipsoid="Clarke 1880" a="6378249.145000" invf="293.465000" dx="-263.000000" dy="6.000000" dz="431.000000"/>
+<datum name="Cent America NAD27" ellipsoid="Clarke 1866" a="6378206.400000" invf="294.978698" dx="0.000000" dy="125.000000" dz="194.000000"/>
+<datum name="Chatham 1971" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="175.000000" dy="-38.000000" dz="113.000000"/>
+<datum name="Chua Astro" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-134.000000" dy="229.000000" dz="-29.000000"/>
+<datum name="Corrego Alegre" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-206.000000" dy="172.000000" dz="-6.000000"/>
+<datum name="Cuba NAD27" ellipsoid="Clarke 1866" a="6378206.400000" invf="294.978698" dx="-9.000000" dy="152.000000" dz="178.000000"/>
+<datum name="Cyprus" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-104.000000" dy="-101.000000" dz="-140.000000"/>
+<datum name="Djakarta(Batavia)" ellipsoid="Bessel 1841" a="6377397.155000" invf="299.152813" dx="-377.000000" dy="681.000000" dz="-50.000000"/>
+<datum name="DOS 1968" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="230.000000" dy="-199.000000" dz="-752.000000"/>
+<datum name="Easter lsland 1967" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="211.000000" dy="147.000000" dz="111.000000"/>
+<datum name="Egypt" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-130.000000" dy="-117.000000" dz="-151.000000"/>
+<datum name="European 1950" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-87.000000" dy="-96.000000" dz="-120.000000"/>
+<datum name="European 1950 mean" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-87.000000" dy="-98.000000" dz="-121.000000"/>
+<datum name="European 1979 mean" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-86.000000" dy="-98.000000" dz="-119.000000"/>
+<datum name="Finnish Nautical" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-78.000000" dy="-231.000000" dz="-97.000000"/>
+<datum name="Gandajika Base" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-133.000000" dy="-321.000000" dz="50.000000"/>
+<datum name="Geodetic Datum 49" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="84.000000" dy="-22.000000" dz="209.000000"/>
+<datum name="Ghana" ellipsoid="WGS84" a="6378137.000000" invf="298.25722356" dx="0.000000" dy="0.000000" dz="0.000000"/>
+<datum name="Greenland NAD27" ellipsoid="Clarke 1866" a="6378206.400000" invf="294.978698" dx="11.000000" dy="114.000000" dz="195.000000"/>
+<datum name="Guam 1963" ellipsoid="Clarke 1866" a="6378206.400000" invf="294.978698" dx="-100.000000" dy="-248.000000" dz="259.000000"/>
+<datum name="Gunung Segara" ellipsoid="Bessel 1841" a="6377397.155000" invf="299.152813" dx="-403.000000" dy="684.000000" dz="41.000000"/>
+<datum name="Gunung Serindung 1962" ellipsoid="WGS84" a="6378137.000000" invf="298.25722356" dx="0.000000" dy="0.000000" dz="0.000000"/>
+<datum name="GUX1 Astro" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="252.000000" dy="-209.000000" dz="-751.000000"/>
+<datum name="Herat North" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-333.000000" dy="-222.000000" dz="114.000000"/>
+<datum name="Hjorsey 1955" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-73.000000" dy="46.000000" dz="86.000000"/>
+<datum name="Hong Kong 1963" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-156.000000" dy="-271.000000" dz="-189.000000"/>
+<datum name="Hu-Tzu-Shan" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-634.000000" dy="-549.000000" dz="-201.000000"/>
+<datum name="Indian" ellipsoid="Everest (India 1956)" a="6377301.243000" invf="300.801700" dx="289.000000" dy="734.000000" dz="257.000000"/>
+<datum name="Iran" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-117.000000" dy="-132.000000" dz="-164.000000"/>
+<datum name="Ireland 1965" ellipsoid="Airy 1830 Modified" a="6377340.189000" invf="299.324965" dx="506.000000" dy="-122.000000" dz="611.000000"/>
+<datum name="ISTS 073 Astro 69" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="208.000000" dy="-435.000000" dz="-229.000000"/>
+<datum name="Johnston Island 61" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="191.000000" dy="-77.000000" dz="-204.000000"/>
+<datum name="Kandawala" ellipsoid="Everest (India 1830)" a="6377276.345000" invf="300.801700" dx="-97.000000" dy="787.000000" dz="86.000000"/>
+<datum name="Kerguelen Island" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="145.000000" dy="-187.000000" dz="103.000000"/>
+<datum name="Kertau 48" ellipsoid="Everest (Malay & Sing)" a="6377304.063000" invf="300.801700" dx="-11.000000" dy="851.000000" dz="5.000000"/>
+<datum name="L.C. 5 Astro" ellipsoid="Clarke 1866" a="6378206.400000" invf="294.978698" dx="42.000000" dy="124.000000" dz="147.000000"/>
+<datum name="La Reunion" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="94.000000" dy="-948.000000" dz="-1262.000000"/>
+<datum name="Liberia 1964" ellipsoid="Clarke 1880" a="6378249.145000" invf="293.465000" dx="-90.000000" dy="40.000000" dz="88.000000"/>
+<datum name="Luzon" ellipsoid="Clarke 1866" a="6378206.400000" invf="294.978698" dx="-133.000000" dy="-77.000000" dz="-51.000000"/>
+<datum name="Mahe 1971" ellipsoid="Clarke 1880" a="6378249.145000" invf="293.465000" dx="41.000000" dy="-220.000000" dz="-134.000000"/>
+<datum name="Marco Astro" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-289.000000" dy="-124.000000" dz="60.000000"/>
+<datum name="Masirah Is. Nahrwan" ellipsoid="Clarke 1880" a="6378249.145000" invf="293.465000" dx="-247.000000" dy="-148.000000" dz="369.000000"/>
+<datum name="Massawa" ellipsoid="Bessel 1841" a="6377397.155000" invf="299.152813" dx="639.000000" dy="405.000000" dz="60.000000"/>
+<datum name="Merchich" ellipsoid="Clarke 1880" a="6378249.145000" invf="293.465000" dx="31.000000" dy="146.000000" dz="47.000000"/>
+<datum name="Mexico NAD27" ellipsoid="Clarke 1866" a="6378206.400000" invf="294.978698" dx="-12.000000" dy="130.000000" dz="190.000000"/>
+<datum name="Midway Astro 61" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="912.000000" dy="-58.000000" dz="1227.000000"/>
+<datum name="Mindanao" ellipsoid="Clarke 1866" a="6378206.400000" invf="294.978698" dx="-133.000000" dy="-79.000000" dz="-72.000000"/>
+<datum name="Minna" ellipsoid="Clarke 1880" a="6378249.145000" invf="293.465000" dx="-92.000000" dy="-93.000000" dz="122.000000"/>
+<datum name="Montjong Lowe" ellipsoid="WGS84" a="6378137.000000" invf="298.25722356" dx="0.000000" dy="0.000000" dz="0.000000"/>
+<datum name="Nahrwan" ellipsoid="Clarke 1880" a="6378249.145000" invf="293.465000" dx="-231.000000" dy="-196.000000" dz="482.000000"/>
+<datum name="Naparima BWI" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-2.000000" dy="374.000000" dz="172.000000"/>
+<datum name="North America 83" ellipsoid="GRS80" a="6378137.000000" invf="298.257222" dx="0.000000" dy="0.000000" dz="0.000000"/>
+<datum name="N. America 1927 mean" ellipsoid="Clarke 1866" a="6378206.400000" invf="294.978698" dx="-8.000000" dy="160.000000" dz="176.000000"/>
+<datum name="Observatorio 1966" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-425.000000" dy="-169.000000" dz="81.000000"/>
+<datum name="Old Egyptian" ellipsoid="Helmert 1906" a="6378200.000000" invf="298.300000" dx="-130.000000" dy="110.000000" dz="-13.000000"/>
+<datum name="Old Hawaiian_mean" ellipsoid="Clarke 1866" a="6378206.400000" invf="294.978698" dx="89.000000" dy="-279.000000" dz="-183.000000"/>
+<datum name="Old Hawaiian Kauai" ellipsoid="Clarke 1866" a="6378206.400000" invf="294.978698" dx="45.000000" dy="-290.000000" dz="-172.000000"/>
+<datum name="Old Hawaiian Maui" ellipsoid="Clarke 1866" a="6378206.400000" invf="294.978698" dx="65.000000" dy="-290.000000" dz="-190.000000"/>
+<datum name="Old Hawaiian Oahu" ellipsoid="Clarke 1866" a="6378206.400000" invf="294.978698" dx="56.000000" dy="-284.000000" dz="-181.000000"/>
+<datum name="Oman" ellipsoid="Clarke 1880" a="6378249.145000" invf="293.465000" dx="-346.000000" dy="-1.000000" dz="224.000000"/>
+<datum name="OSGB36" ellipsoid="Airy 1830" a="6377563.396000" invf="299.324965" dx="375.000000" dy="-111.000000" dz="431.000000"/>
+<datum name="Pico De Las Nieves" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-307.000000" dy="-92.000000" dz="127.000000"/>
+<datum name="Pitcairn Astro 67" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="185.000000" dy="165.000000" dz="42.000000"/>
+<datum name="S. Am. 1956 mean(P)" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-288.000000" dy="175.000000" dz="-376.000000"/>
+<datum name="S. Chilean 1963 (P)" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="16.000000" dy="196.000000" dz="93.000000"/>
+<datum name="Puerto Rico" ellipsoid="Clarke 1866" a="6378206.400000" invf="294.978698" dx="11.000000" dy="72.000000" dz="-101.000000"/>
+<datum name="Pulkovo 1942 (1)" ellipsoid="Krassovsky 1948" a="6378245.000000" invf="298.300000" dx="28.000000" dy="-130.000000" dz="-95.000000"/>
+<datum name="Pulkovo 1942 (2)" ellipsoid="Krassovsky 1948" a="6378245.000000" invf="298.300000" dx="28.000000" dy="-130.000000" dz="-95.000000"/>
+<datum name="Qornoq" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="164.000000" dy="138.000000" dz="-189.000000"/>
+<datum name="Quatar National" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-128.000000" dy="-283.000000" dz="22.000000"/>
+<datum name="Rome 1940" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-225.000000" dy="-65.000000" dz="9.000000"/>
+<datum name="S.E.Asia_(Indian)" ellipsoid="Everest (India 1830)" a="6377276.345000" invf="300.801700" dx="173.000000" dy="750.000000" dz="264.000000"/>
+<datum name="SAD-69/Brazil" ellipsoid="S. American 1969" a="6378160.000000" invf="298.250000" dx="-60.000000" dy="-2.000000" dz="-41.000000"/>
+<datum name="Santa Braz" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-203.000000" dy="141.000000" dz="53.000000"/>
+<datum name="Santo (DOS)" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="170.000000" dy="42.000000" dz="84.000000"/>
+<datum name="Sapper Hill 43" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-355.000000" dy="16.000000" dz="74.000000"/>
+<datum name="Schwarzeck" ellipsoid="Bessel 1841 (Namibia)" a="6377483.865000" invf="299.152813" dx="616.000000" dy="97.000000" dz="-251.000000"/>
+<datum name="Sicily" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-97.000000" dy="-88.000000" dz="-135.000000"/>
+<datum name="Sierra Leone 1960" ellipsoid="WGS84" a="6378137.000000" invf="298.25722356" dx="0.000000" dy="0.000000" dz="0.000000"/>
+<datum name="S. Am. 1969 mean" ellipsoid="S. American 1969" a="6378160.000000" invf="298.250000" dx="-57.000000" dy="1.000000" dz="-41.000000"/>
+<datum name="South Asia" ellipsoid="Modified Fischer 1960" a="6378155.000000" invf="298.300000" dx="7.000000" dy="-10.000000" dz="-26.000000"/>
+<datum name="Southeast Base" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-499.000000" dy="-249.000000" dz="314.000000"/>
+<datum name="Southwest Base" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-104.000000" dy="167.000000" dz="-38.000000"/>
+<datum name="Tananarive Obs 25" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-189.000000" dy="-242.000000" dz="-91.000000"/>
+<datum name="Thai/Viet (Indian)" ellipsoid="Everest (India 1830)" a="6377276.345000" invf="300.801700" dx="214.000000" dy="836.000000" dz="303.000000"/>
+<datum name="Timbalai 1948" ellipsoid="Everest (India 1830)" a="6377276.345000" invf="300.801700" dx="-689.000000" dy="691.000000" dz="-45.000000"/>
+<datum name="Tokyo mean" ellipsoid="Bessel 1841" a="6377397.155000" invf="299.152813" dx="-128.000000" dy="481.000000" dz="664.000000"/>
+<datum name="Tristan Astro 1968" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-632.000000" dy="438.000000" dz="-609.000000"/>
+<datum name="United Arab Emirates" ellipsoid="Clarke 1880" a="6378249.145000" invf="293.465000" dx="-249.000000" dy="-156.000000" dz="381.000000"/>
+<datum name="Viti Levu 1916" ellipsoid="Clarke 1880" a="6378249.145000" invf="293.465000" dx="51.000000" dy="391.000000" dz="-36.000000"/>
+<datum name="Wake Eniwetok 60" ellipsoid="Hough 1960" a="6378270.000000" invf="297.000000" dx="101.000000" dy="52.000000" dz="-39.000000"/>
+<datum name="WGS 72" ellipsoid="WGS72" a="6378135.000000" invf="298.260000" dx="0.000000" dy="0.000000" dz="5.000000"/>
+<datum name="WGS 84" ellipsoid="WGS84" a="6378137.000000" invf="298.25722356" dx="0.000000" dy="0.000000" dz="0.000000"/>
+<datum name="Yacare" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-155.000000" dy="171.000000" dz="37.000000"/>
+<datum name="Zanderij" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-265.000000" dy="120.000000" dz="-358.000000"/>
+<datum name="Sweden" ellipsoid="Bessel 1841" a="6377397.155000" invf="299.152813" dx="424.300000" dy="-80.500000" dz="613.100000"/>
+<datum name="GDA 94" ellipsoid="GRS80" a="6378137.000000" invf="298.257222" dx="0.000000" dy="0.000000" dz="0.000000"/>
+<datum name="CH-1903" ellipsoid="Bessel 1841" a="6377397.155000" invf="299.152813" dx="674.000000" dy="15.000000" dz="405.000000"/>
+
+</datums>
