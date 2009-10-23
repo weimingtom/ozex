@@ -202,6 +202,7 @@ END_EVENT_TABLE()
 MapView::MapView(wxFrame *parent) : wxPanel(parent, IDP_PANEL), screen(0) 
 {
 	delta_x = delta_y = 0;
+	pressed = 0;
 
 	wxImage::AddHandler(new wxPNGHandler);
 
@@ -248,6 +249,8 @@ MapView::~MapView()
 /*----------------------------------------------------------------------------*/
 void MapView::onPaint(wxPaintEvent &) 
 {
+    if(!screen)
+	createScreen();
     if (!screen || !position || !bg) 
         return;
     
@@ -744,7 +747,6 @@ void MapView::onIdle(wxIdleEvent &)
 		}
 	}
 
-    createScreen();
     
     if (SDL_MUSTLOCK(screen)) {
         if (SDL_LockSurface(screen) < 0) {
