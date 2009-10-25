@@ -43,6 +43,7 @@
 <datum name="European 1950 mean" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-87.000000" dy="-98.000000" dz="-121.000000"/>
 <datum name="European 1979 mean" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-86.000000" dy="-98.000000" dz="-119.000000"/>
 <datum name="Finnish Nautical" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-78.000000" dy="-231.000000" dz="-97.000000"/>
+<datum name="Finland Hayford" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-78.000000" dy="-231.000000" dz="-97.000000"/>
 <datum name="Gandajika Base" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="-133.000000" dy="-321.000000" dz="50.000000"/>
 <datum name="Geodetic Datum 49" ellipsoid="International 1924" a="6378388.000000" invf="297.000000" dx="84.000000" dy="-22.000000" dz="209.000000"/>
 <datum name="Ghana" ellipsoid="WGS84" a="6378137.000000" invf="298.25722356" dx="0.000000" dy="0.000000" dz="0.000000"/>
