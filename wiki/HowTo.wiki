@@ -1,5 +1,7 @@
 = Ставим проект на Ubuntu 9.10. =
 
+<wiki:toc max_depth="2" />
+
 == Устанавливаем необходимые пакеты ==
 
 {{{sudo apt-get install subversion patch dmake libwxbase2.8-dev libwxgtk2.8-dev libsdl-image1.2-dev g++}}}
