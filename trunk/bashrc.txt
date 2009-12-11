@@ -10,6 +10,9 @@ export OZEX_BUTTON_GAP=10
 export OZEX_MAP_DX=732
 export OZEX_MAP_DY=542
 
+export OZEX_LAT=60,382313
+export OZEX_LON=29,562426
+
 export OZEX_USE_LOG=1
 export OZEX_GPS_LOG=./logs/orehovo.txt
 export OZEX_GPS_DEV=/dev/rfcomm0

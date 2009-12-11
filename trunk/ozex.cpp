@@ -1613,6 +1613,9 @@ bool SDLApp::OnInit()
 
 	ozexMapDX = atoi(getenv("OZEX_MAP_DX"));
 	ozexMapDY = atoi(getenv("OZEX_MAP_DY"));
+
+	double lat = atof(getenv("OZEX_LAT"));
+        double lon = atof(getenv("OZEX_LON"));
 	
 	printf("ozexWindowDX: %d\n", ozexWindowDX);
 	printf("ozexWindowDY: %d\n", ozexWindowDY);
@@ -1624,6 +1627,8 @@ bool SDLApp::OnInit()
 	printf("ozexMapDX: %d\n", ozexMapDX);
 	printf("ozexMapDY: %d\n", ozexMapDY);
 
+	printf("ozexX: %lf\n", lat);
+	printf("ozexY: %lf\n", lon);
 
 	logstream_to(NULL);
 
@@ -1635,9 +1640,6 @@ bool SDLApp::OnInit()
 
 	render = new map_render(collection, ozexMapDX, ozexMapDY);
     
-    double lat = 60.382313;
-	double lon = 29.562426;
-	
 	render->center_set(lat, lon);
         
     frame->Show();

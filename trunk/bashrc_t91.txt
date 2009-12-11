@@ -1,0 +1,20 @@
+export OZEX_MAPS_PATH=/media/WAREHOUSE/maps
+
+export OZEX_WINDOW_DX=1022
+export OZEX_WINDOW_DY=562
+
+export OZEX_BUTTON_DX=70
+export OZEX_BUTTON_DY=70
+export OZEX_BUTTON_GAP=0
+
+export OZEX_MAP_DX=948
+export OZEX_MAP_DY=552
+
+export OZEX_LAT=55,920064
+export OZEX_LON=36,915972
+
+export OZEX_USE_LOG=0
+export OZEX_GPS_LOG=./logs/orehovo.txt
+export OZEX_GPS_DEV=/dev/rfcomm0
+export OZEX_GPS_BAUDS=9600
+
