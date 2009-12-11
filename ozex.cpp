@@ -631,7 +631,7 @@ void MapView::OnMouseDown(wxMouseEvent &event)
 			}
 			else
 			{
-				ozex_gps_start(getenv("OZEX_GPS_LOG"), atoi(getenv("OZEX_GPS_BAUDS")));
+				ozex_gps_start(getenv("OZEX_GPS_DEV"), atoi(getenv("OZEX_GPS_BAUDS")));
 			}
 	
 			gpsOn = 1;
