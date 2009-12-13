@@ -29,7 +29,9 @@ ldflags = -lSDL -lSDL_image `wx-config --libs`
 #	./libs/cross/sdlimage/IMG_xv \
 #	./libs/cross/sdlimage/IMG_xxx \
 
-sources = ./ozex \
+sources = ./mapwindow \
+	./mapview \
+	./ozex \
 	./ozex_gps \
 	./libs/cross/nmeap/nmeap01 \
 	./libs/cross/libgeotrans/src/albers \
@@ -123,12 +125,16 @@ target = ./ozex
 $(target): $(objects)
 	$(cpp) $(ldflags)  -o $@ $(objects)
 
-
-%.o: %.cpp
+%.o : %.cpp
 	$(cpp) $(cflags) -c $< -o $@
 
 %.o: %.c
 	$(cc) $(cflags) -c $< -o $@
+
+ozex.o: ozex.h ozex_gps.h
+mapview.o: mapview.h ozex.h
+mapwindow.o: mapwindow.h ozex.h
+ozex_gps.o: ozex_gps.h
 
 clean:
     rm -f $(objects) $(target)
