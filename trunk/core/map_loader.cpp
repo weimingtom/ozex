@@ -26,6 +26,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
+#include <locale.h>
 
 #ifdef WIN32
 #include <malloc.h>
@@ -784,6 +785,9 @@ map_info* maploader_openmap(char* filename)
 {
 	map_info* mi = NULL;
 	char pszString[STRING_MAX];
+
+	char *cur_locale=setlocale(LC_NUMERIC,NULL);
+	setlocale(LC_NUMERIC,"C");
 	
 	FILE *fp = fopen(filename, "rt");
 
@@ -887,7 +891,7 @@ map_info* maploader_openmap(char* filename)
 
 		fclose(fp);
 	}
-	
+	setlocale(LC_NUMERIC,cur_locale);
 	return mi;
 }
 
