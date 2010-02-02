@@ -26,6 +26,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <locale.h>
 
 #include "log_stream.h"
 
@@ -55,6 +56,9 @@ void	wpt_container::load(const char* file)
 	numpoints = 0;
 
 	free(points);
+
+	char *cur_locale=setlocale(LC_NUMERIC,NULL);
+	setlocale(LC_NUMERIC,"C");
 
 	points = (waypoint*)malloc(WAYPOINTS_MAX*sizeof(waypoint));
 	memset(points, 0, WAYPOINTS_MAX*sizeof(waypoint));
@@ -185,6 +189,7 @@ void	wpt_container::load(const char* file)
 
 		}
 	}
+	setlocale(LC_NUMERIC,cur_locale);
 	
 	fclose(fp);
 }
