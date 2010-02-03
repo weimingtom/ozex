@@ -61,6 +61,7 @@ class map_render
 		void			scroll_by(int dx, int dy);
 		
 		double			zoom_get();
+		void			zoom_set(double zoom_level);
 
 		char*			file_name_get();
 

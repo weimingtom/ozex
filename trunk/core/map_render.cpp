@@ -347,6 +347,14 @@ double	map_render::zoom_get()
 }
 
 /*--------------------------------------------------------------------------*/
+void	map_render::zoom_set(double zoom_level)
+{
+	if (center.mapview)
+		return center.mapview->zoom_level_set(zoom_level);
+}
+
+
+/*--------------------------------------------------------------------------*/
 SDL_Surface* map_render::surface()
 {
 	return view;
