@@ -57,7 +57,7 @@ void	wpt_container::load(const char* file)
 
 	free(points);
 
-	char *cur_locale=setlocale(LC_NUMERIC,NULL);
+	char *cur_locale=strdup(setlocale(LC_NUMERIC,NULL));
 	setlocale(LC_NUMERIC,"C");
 
 	points = (waypoint*)malloc(WAYPOINTS_MAX*sizeof(waypoint));
@@ -190,6 +190,7 @@ void	wpt_container::load(const char* file)
 		}
 	}
 	setlocale(LC_NUMERIC,cur_locale);
+	free(cur_locale);
 	
 	fclose(fp);
 }
