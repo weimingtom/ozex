@@ -783,11 +783,14 @@ void maploader_fixcoords(map_info* mi)
 /*--------------------------------------------------------------------------*/
 map_info* maploader_openmap(char* filename)
 {
+	char *cur_locale;
+	cur_locale=strdup(setlocale(LC_NUMERIC,""));
+
+	setlocale(LC_NUMERIC,"C");
+
 	map_info* mi = NULL;
 	char pszString[STRING_MAX];
 
-	char *cur_locale=setlocale(LC_NUMERIC,NULL);
-	setlocale(LC_NUMERIC,"C");
 	
 	FILE *fp = fopen(filename, "rt");
 
@@ -892,6 +895,7 @@ map_info* maploader_openmap(char* filename)
 		fclose(fp);
 	}
 	setlocale(LC_NUMERIC,cur_locale);
+	free(cur_locale);
 	return mi;
 }
 
