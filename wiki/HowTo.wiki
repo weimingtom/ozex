@@ -12,8 +12,6 @@
 
 == Compiling ==
 
-Переходим в каталог с проектом
-
 {{{cd ozex-read-only}}}
 
 {{{dmake}}}
@@ -62,7 +60,7 @@ OZEX_GPS_BAUDS: gps baud rate :)
 == Starting ozex ==
 {{{. bashrc.txt && ./ozex}}}
 
-== Прочие замечания ==
+== Miscellanious ==
 
 * GUI part is very ugly at the moment because it was written in a big hurry in car while driving to trophy raid start.
 
