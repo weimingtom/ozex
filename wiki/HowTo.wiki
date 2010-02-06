@@ -1,26 +1,24 @@
-= Ставим проект на Ubuntu 9.10. =
+= Building the project under Ubuntu 9.10. =
 
 <wiki:toc max_depth="2" />
 
-== Устанавливаем необходимые пакеты ==
+== Installing dependencies ==
 
 {{{sudo apt-get install subversion patch dmake libwxbase2.8-dev libwxgtk2.8-dev libsdl-image1.2-dev g++}}}
 
-== Получение проекта из SVN ==
+== Getting project from SVN ==
 
 {{{svn checkout http://ozex.googlecode.com/svn/trunk/ ozex-read-only}}}
 
-== Компиляция ==
+== Compiling ==
 
 Переходим в каталог с проектом
 
 {{{cd ozex-read-only}}}
 
-Компилируем проект
-
 {{{dmake}}}
 
-== Правим .bashrc.txt ==
+== Updating your .bashrc.txt ==
 {{{
 export OZEX_MAPS_PATH=/media/disk/data/mapping/maps
 export OZEX_WINDOW_DX=800
@@ -38,39 +36,38 @@ export OZEX_GPS_DEV=/dev/rfcomm0
 export OZEX_GPS_BAUDS=4800
 }}}
 
-== Что это было ==
+== But... what's it? ==
 
-OZEX_MAPS_PATH: каталог с картами ози. может содержать подкаталоги - всё будет обходиться
-рекурсивно.
+OZEX_MAPS_PATH: map folder. May contain subfolders - will be scanned recursively.
 
-OZEX_WINDOW_DX: ширина окна озекса. я не сторонник окон с ресайзом, поэтому всё пробито жестко.
-OZEX_WINDOW_DY: высота окна
+OZEX_WINDOW_DX: application window width.
+OZEX_WINDOW_DY: application window height.
 
-OZEX_BUTTON_DX: ширина кнопки тулбара. настраивается под размер пальца :)
-OZEX_BUTTON_DY: высота кнопки
-OZEX_BUTTON_GAP: размер междукнопия
+OZEX_BUTTON_DX: Toolbar button width. Designed for your fingers :)
+OZEX_BUTTON_DY: Toolbar button height
+OZEX_BUTTON_GAP: Space between buttons
 
-OZEX_MAP_DX: ширина картинки с картой
-OZEX_MAP_DY: высота картинки 
+OZEX_MAP_DX: Map control width
+OZEX_MAP_DY: Map control height
 
-OZEX_LAT: широта которая используются при старте программы.
-OZEX_LON: долгота
+OZEX_LAT: Latitude used at the start of an application
+OZEX_LON: Longitude used at the start of an application
 
-OZEX_USE_LOG: 1 - в случае, если читаем NMEA данные из текстового файла, а не из девайса
-OZEX_GPS_LOG: имя файла с NMEA данными, используется, если OZEX_USE_LOG=1. грубо говоря - это просто текстовый файл, записанный с сериал порта гпс.
+OZEX_USE_LOG: 1 - if you want to use NMEA data from text file, not from real device
+OZEX_GPS_LOG: log file name (with path). Just a text file with raw NMEA data
 
-OZEX_GPS_DEV: имя реального гпс устройства.
-OZEX_GPS_BAUDS: я думаю, понятно? :)
+OZEX_GPS_DEV: filename of a real GPS device connected
+OZEX_GPS_BAUDS: gps baud rate :)
 
-== Запуск ozex ==
+== Starting ozex ==
 {{{. bashrc.txt && ./ozex}}}
 
 == Прочие замечания ==
 
-* код гуя _крайне_ сырой. Я его писал очень и очень наспех, а какие-то куски вообще дописывал по дороге на старт трофи Куркиёки. тем не менее, в течение рейда всё работало :)
+* GUI part is very ugly at the moment because it was written in a big hurry in car while driving to trophy raid start.
 
-* важно: в треки сейчас не пишется время точки. это может быть важно на соревнованиях, для обычных поездок - в принципе, не особо нужно.
+* NB: time is not saved in track logs at the moment. 
 
-* карты у которых точек привязки меньше 2 не работают.
+* Maps with calibration points amount <= 2 does not supported.
 
-В проекте есть конфиг (bashrc_t91.txt) для нетбука ASUS T91 с установленной Ubuntu 9.10 Netbook Remix, размер экрана 1024*600 точек.
+There is a sample config (bashrc_t91.txt) for ASUS T91 netbook running  Ubuntu 9.10 Netbook Remix, designed for 1024x600 resolution.
