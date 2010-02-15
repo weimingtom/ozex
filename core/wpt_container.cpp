@@ -294,6 +294,9 @@ void wpt_container::save(const char* filename)
 	if (!fp)
 		return;
 
+	char *cur_locale=strdup(setlocale(LC_NUMERIC,NULL));
+	setlocale(LC_NUMERIC,"C");
+
 	int j = 1;	
 
 	fprintf(fp, "OziExplorer Waypoint File Version 1.1\r\n");
@@ -313,6 +316,9 @@ void wpt_container::save(const char* filename)
 	}
 
 	fclose(fp);
+
+	setlocale(LC_NUMERIC,cur_locale);
+	free(cur_locale);
 
 	unsaved = 0;
 }
