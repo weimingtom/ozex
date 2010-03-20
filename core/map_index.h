@@ -33,7 +33,7 @@
 class map_index 
 {
 	public:
-		map_index(char* path);
+		map_index(const char* path);
 		~map_index();
 		
 		int		maps_for_ll(double lat, double lon, int** indexes);

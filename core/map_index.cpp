@@ -30,7 +30,7 @@
 static int ll_inside_map(LLXY *corners, long numcorners, double lat, double lon);
 
 /*--------------------------------------------------------------------------*/
-map_index::map_index(char* path)
+map_index::map_index(const char* path)
 {
 	maps_collection = filecollection_init();
 	filecollection_collect(maps_collection, path, ".map");

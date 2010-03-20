@@ -35,12 +35,12 @@ END_EVENT_TABLE()
 
 MapWindow::MapWindow() 
 {
-	ozexWindowDX = atoi(getenv("OZEX_WINDOW_DX"));
-	ozexWindowDY = atoi(getenv("OZEX_WINDOW_DY"));
+	ozexWindowDX = GET_ENV_INT("OZEX_WINDOW_DX", 800);
+	ozexWindowDY = GET_ENV_INT("OZEX_WINDOW_DY", 600);
 
-	ozexButtonDX = atoi(getenv("OZEX_BUTTON_DX"));
-	ozexButtonDY = atoi(getenv("OZEX_BUTTON_DY"));
-	ozexButtonGap = atoi(getenv("OZEX_BUTTON_GAP"));
+	ozexButtonDX = GET_ENV_INT("OZEX_BUTTON_DX", 64);
+	ozexButtonDY = GET_ENV_INT("OZEX_BUTTON_DY", 64);
+	ozexButtonGap = GET_ENV_INT("OZEX_BUTTON_GAP", 10);
 	printf("ozexWindowDX: %d\n", ozexWindowDX);
 	printf("ozexWindowDY: %d\n", ozexWindowDY);
 

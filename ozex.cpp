@@ -102,15 +102,15 @@ void SDLApp::gpsOnOff()
 	}
 	else
 	{
-		int debug = atoi(getenv("OZEX_USE_LOG"));
+		int debug = GET_ENV_INT("OZEX_USE_LOG",0);
 		
 		if (debug)
 		{
-			ozex_gps_start_fromfile(getenv("OZEX_GPS_LOG"));
+			ozex_gps_start_fromfile(GET_ENV_STR("OZEX_GPS_LOG","logs/gps.log"));
 		}
 		else
 		{
-			ozex_gps_start(getenv("OZEX_GPS_DEV"), atoi(getenv("OZEX_GPS_BAUDS")));
+			ozex_gps_start(GET_ENV_STR("OZEX_GPS_DEV","/dev/rfcomm0"), GET_ENV_INT("OZEX_GPS_BAUDS",9600));
 		}	
 		setGpsOn(1);
 	}

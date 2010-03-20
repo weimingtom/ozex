@@ -97,7 +97,7 @@ void filecollection_forget(file_collection* fc)
 }
 
 /*--------------------------------------------------------------------------*/
-void filecollection_collect(file_collection* fc, char* path, char* ext)
+void filecollection_collect(file_collection* fc, const char* path, const char* ext)
 {
     ulDir *folder;
     struct ulDirEnt* folder_data;
