@@ -10,7 +10,7 @@ cc	= gcc
 cpp	= g++
 includes= -I/usr/include $(locals) $(ficl) $(addons)
 cflags	= -g -ggdb -W -Wall -pipe $(includes) $(defs) $(shell wx-config --cppflags) $(shell sdl-config --cflags)
-ldflags = -lz -lSDL_image $(shell wx-config --libs) $(shell sdl-config --libs)
+ldflags = -lz $(shell wx-config --libs) $(shell sdl-config --libs)
 
 objects = ./mapwindow.o \
 	./mapview.o \
@@ -78,6 +78,20 @@ objects = ./mapwindow.o \
 	./libs/cross/sdlgfx/SDL_gfxPrimitives.o \
 	./libs/cross/sdlgfx/SDL_imageFilter.o \
 	./libs/cross/sdlgfx/SDL_rotozoom.o \
+	./libs/cross/sdlimage/IMG.o \
+	./libs/cross/sdlimage/IMG_bmp.o \
+	./libs/cross/sdlimage/IMG_gif.o \
+	./libs/cross/sdlimage/IMG_jpg.o \
+	./libs/cross/sdlimage/IMG_lbm.o \
+	./libs/cross/sdlimage/IMG_pcx.o \
+	./libs/cross/sdlimage/IMG_png.o \
+	./libs/cross/sdlimage/IMG_pnm.o \
+	./libs/cross/sdlimage/IMG_tga.o \
+	./libs/cross/sdlimage/IMG_tif.o \
+	./libs/cross/sdlimage/IMG_xcf.o \
+	./libs/cross/sdlimage/IMG_xpm.o \
+	./libs/cross/sdlimage/IMG_xv.o \
+	./libs/cross/sdlimage/IMG_xxx.o \
 	./libs/cross/ficl/bit.o \
 	./libs/cross/ficl/callback.o \
 	./libs/cross/ficl/compatibility.o \
