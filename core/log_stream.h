@@ -31,6 +31,6 @@
 
 /*--------------------------------------------------------------------------*/
 void logstream_to(FILE*);
-void logstream_write(char *fmt, ...);
+void logstream_write(const char *fmt, ...);
 
 #endif

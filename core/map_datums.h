@@ -43,8 +43,8 @@ typedef struct
 } map_datum;
 
 /*--------------------------------------------------------------------------*/
-void		mapdatums_init(char* filename);
-map_datum*	mapdatums_find(char* name);
+void		mapdatums_init(const char* filename);
+map_datum*	mapdatums_find(const char* name);
 void		mapdatums_done();
 void		mapdatums_debug();
 

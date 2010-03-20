@@ -53,7 +53,7 @@ static map_datum map_datum_wgs84 =
 };
 
 /*--------------------------------------------------------------------------*/
-void mapdatums_init(char* filename)
+void mapdatums_init(const char* filename)
 {
 	map_datums_params = (map_datum*)malloc(MAP_DATUMS_MAX * sizeof(map_datum));
 	memset(map_datums_params, 0, MAP_DATUMS_MAX * sizeof(map_datum));
@@ -118,7 +118,7 @@ void mapdatums_debug()
 }
 
 /*--------------------------------------------------------------------------*/
-map_datum*	mapdatums_find(char* name)
+map_datum*	mapdatums_find(const char* name)
 {
 	logstream_write("requested data for datum %s\n", name);
 

@@ -273,7 +273,7 @@ void MapView::DrawPosition(wxPaintDC &dc)
 void MapView::DrawWaypoints(wxPaintDC &dc)
 {
 	map_container* mapview = render->getmap();
-	if (mapview && !pressed || (pressed && delta_x == 0 && delta_y == 0))
+	if (mapview && (!pressed || (pressed && delta_x == 0 && delta_y == 0)))
 	{
 	
 		double nearest = 1000000 * 1000; // 1 mln km 
