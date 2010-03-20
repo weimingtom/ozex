@@ -58,7 +58,7 @@ MapView::MapView(wxFrame *parent) : wxPanel(parent, IDP_PANEL), screen(0), mapOn
 
 	printf("ozexMapDX: %d\n", ozexMapDX);
 	printf("ozexMapDY: %d\n", ozexMapDY);
-	collection = new map_index(GET_ENV_STR("OZEX_MAPS_PATH",""));
+	collection = new map_index(GET_ENV_STR("OZEX_MAPS_PATH","data/maps"));
 	render = new map_render(collection, ozexMapDX, ozexMapDY);
 	double lat = GET_ENV_FLOAT("OZEX_LAT",60.382313);
         double lon = GET_ENV_FLOAT("OZEX_LON",29.562426);
