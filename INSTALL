@@ -1,0 +1,4 @@
+Compile:
+dmake
+or
+make -f Makefile.make
