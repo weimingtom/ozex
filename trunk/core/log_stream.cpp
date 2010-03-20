@@ -34,7 +34,7 @@ void logstream_to(FILE* f)
 }
 
 /*--------------------------------------------------------------------------*/
-void logstream_write(char *fmt, ...)
+void logstream_write(const char *fmt, ...)
 {
 	if (logstream)
 	{
