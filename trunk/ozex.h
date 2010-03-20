@@ -1,3 +1,6 @@
+#ifndef __OZEX_H
+#define OZEX_H
+
 /*----------------------------------------------------------------------------*/
 enum 
 {
@@ -24,6 +27,11 @@ struct coords_t
 	double lat, lon;
 	int onPosition;
 };
+
+//FIXME: potential race condition
+#define GET_ENV_INT(a,b) (getenv(a)?atoi(getenv(a)):(b))
+#define GET_ENV_STR(a,b) (getenv(a)?getenv(a):(b))
+#define GET_ENV_FLOAT(a,b) (getenv(a)?atof(getenv(a)):(b))
 
 class MapWindow;
 wxString format_dist(double distInM);
@@ -53,3 +61,4 @@ public:
 };
 
 DECLARE_APP(SDLApp);
+#endif

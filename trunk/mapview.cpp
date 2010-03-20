@@ -36,8 +36,6 @@ Uint32			bmask = 0x00ff0000;
 Uint32			amask = 0xff000000;
 #endif
 
-//FIXME: potential race condition
-#define GET_ENV_INT(a,b) (getenv(a)?atoi(getenv(a)):(b))
 
 /*----------------------------------------------------------------------------*/
 MapView::MapView(wxFrame *parent) : wxPanel(parent, IDP_PANEL), screen(0), mapOn(1) 
@@ -54,16 +52,16 @@ MapView::MapView(wxFrame *parent) : wxPanel(parent, IDP_PANEL), screen(0), mapOn
 	pointnew = new wxBitmap(wxImage(wxT("icons/map_point_green.png"), wxBITMAP_TYPE_PNG));
 
 	char *t;
-	ozexMapDX = GET_ENV_INT("OZEX_MAP_DX",0);
-	ozexMapDY = GET_ENV_INT("OZEX_MAP_DY",0);
+	ozexMapDX = GET_ENV_INT("OZEX_MAP_DX",800);
+	ozexMapDY = GET_ENV_INT("OZEX_MAP_DY",600);
 	
 
 	printf("ozexMapDX: %d\n", ozexMapDX);
 	printf("ozexMapDY: %d\n", ozexMapDY);
-	collection = new map_index(getenv("OZEX_MAPS_PATH"));
+	collection = new map_index(GET_ENV_STR("OZEX_MAPS_PATH",""));
 	render = new map_render(collection, ozexMapDX, ozexMapDY);
-	double lat = atof(getenv("OZEX_LAT"));
-        double lon = atof(getenv("OZEX_LON"));
+	double lat = GET_ENV_FLOAT("OZEX_LAT",60.382313);
+        double lon = GET_ENV_FLOAT("OZEX_LON",29.562426);
 	render->center_set(lat, lon);
         printf("ozexX: %lf\n", lat);
 	printf("ozexY: %lf\n", lon);
