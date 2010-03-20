@@ -36,6 +36,9 @@ Uint32			bmask = 0x00ff0000;
 Uint32			amask = 0xff000000;
 #endif
 
+//FIXME: potential race condition
+#define GET_ENV_INT(a,b) (getenv(a)?(atoi(getenv(a)):(b))
+
 /*----------------------------------------------------------------------------*/
 MapView::MapView(wxFrame *parent) : wxPanel(parent, IDP_PANEL), screen(0), mapOn(1) 
 {
@@ -50,8 +53,9 @@ MapView::MapView(wxFrame *parent) : wxPanel(parent, IDP_PANEL), screen(0), mapOn
 	point = new wxBitmap(wxImage(wxT("icons/map_point_red.png"), wxBITMAP_TYPE_PNG));
 	pointnew = new wxBitmap(wxImage(wxT("icons/map_point_green.png"), wxBITMAP_TYPE_PNG));
 
-	ozexMapDX = atoi(getenv("OZEX_MAP_DX"));
-	ozexMapDY = atoi(getenv("OZEX_MAP_DY"));
+	char *t;
+	ozexMapDX = GET_ENV_INT("OZEX_MAP_DX",0);
+	ozexMapDY = GET_ENV_INT("OZEX_MAP_DY",0);
 	
 
 	printf("ozexMapDX: %d\n", ozexMapDX);
