@@ -1,6 +1,6 @@
 .PHONY : clean
 
-locals = -I./core -I./libs/cross/libgeotrans/src -I./libs/cross/ezxml -I./libs/cross/sdlgfx -I./libs/cross/ul  -I./libs/cross/nmeap -I./libs/cross/zlib
+locals = -I./core -I./libs/cross/libgeotrans/src -I./libs/cross/ezxml -I./libs/cross/sdlgfx -I./libs/cross/sdlimage -I./libs/cross/ul  -I./libs/cross/nmeap -I./libs/cross/zlib
 ficl = -I./libs/cross/ficl -I./libs/cross/ficl/ficlplatform
 addons = -I/usr/include/libpng -I/usr/include
 
