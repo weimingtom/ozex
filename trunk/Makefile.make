@@ -9,7 +9,7 @@ defs = -DFICL_ANSI=1 -DEZXML_NOMMAP=1
 cc	= gcc
 cpp	= g++
 includes= -I/usr/include $(locals) $(ficl) $(addons)
-cflags	= -g -ggdb -W -Wall -pipe $(includes) $(defs) $(shell wx-config --cppflags) $(shell sdl-config --cflags)
+cflags	= -g -ggdb -W -Wall -pipe $(includes) $(defs) $(shell wx-config --cppflags) $(shell sdl-config --cflags) -DLOAD_PNG
 ldflags = -lz $(shell wx-config --libs) $(shell sdl-config --libs)
 
 objects = ./mapwindow.o \
