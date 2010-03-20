@@ -37,7 +37,7 @@ Uint32			amask = 0xff000000;
 #endif
 
 //FIXME: potential race condition
-#define GET_ENV_INT(a,b) (getenv(a)?(atoi(getenv(a)):(b))
+#define GET_ENV_INT(a,b) (getenv(a)?atoi(getenv(a)):(b))
 
 /*----------------------------------------------------------------------------*/
 MapView::MapView(wxFrame *parent) : wxPanel(parent, IDP_PANEL), screen(0), mapOn(1) 
