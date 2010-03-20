@@ -52,8 +52,8 @@ MapView::MapView(wxFrame *parent) : wxPanel(parent, IDP_PANEL), screen(0), mapOn
 	pointnew = new wxBitmap(wxImage(wxT("icons/map_point_green.png"), wxBITMAP_TYPE_PNG));
 
 	char *t;
-	ozexMapDX = GET_ENV_INT("OZEX_MAP_DX",800);
-	ozexMapDY = GET_ENV_INT("OZEX_MAP_DY",600);
+	ozexMapDX = GET_ENV_INT("OZEX_MAP_DX",732);
+	ozexMapDY = GET_ENV_INT("OZEX_MAP_DY",542);
 	
 
 	printf("ozexMapDX: %d\n", ozexMapDX);
