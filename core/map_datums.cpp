@@ -293,7 +293,8 @@ static void mapdatum_molodensky(double Sphi, double Slam, double SH, double Sa,
     *Dlam = rad_to_deg(*Dlam);
 }
 
-map_datum*	mapdatums_list()
+map_datum*	mapdatums_list(int *count=0)
 {
+    if (count) *count=map_datums_found;
     return map_datums_params;
 }
