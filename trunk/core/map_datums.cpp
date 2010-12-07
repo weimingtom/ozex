@@ -292,3 +292,8 @@ static void mapdatum_molodensky(double Sphi, double Slam, double SH, double Sa,
     *Dphi = rad_to_deg(*Dphi);
     *Dlam = rad_to_deg(*Dlam);
 }
+
+map_datum*	mapdatums_list()
+{
+    return map_datums_params;
+}
