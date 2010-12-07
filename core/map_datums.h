@@ -51,5 +51,6 @@ void		mapdatums_debug();
 void		mapdatum_to_wgs84(	double Sphi, double Slam, double SH,
 								double *Dphi, double *Dlam, double *DH,
 								map_datum* params);
+map_datum*	mapdatums_list();
 
 #endif
