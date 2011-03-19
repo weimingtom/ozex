@@ -1,8 +1,8 @@
-= Building the project under Ubuntu 9.10. =
+= ozex HowTo: Building and Using =
 
 <wiki:toc max_depth="2" />
 
-== Installing dependencies ==
+== Installing dependencies on Ubuntu 9.10 ==
 
 {{{sudo apt-get install subversion patch dmake libwxbase2.8-dev libwxgtk2.8-dev libsdl-image1.2-dev g++}}}
 
@@ -12,11 +12,12 @@
 
 == Compiling ==
 
-{{{cd ozex}}}
+{{{
+cd ozex
+dmake
+}}}
 
-{{{dmake}}}
-
-== Updating your .bashrc.txt ==
+== Preparing config file (bashrc.txt) ==
 {{{
 export OZEX_MAPS_PATH=/media/disk/data/mapping/maps
 export OZEX_WINDOW_DX=800
@@ -34,7 +35,7 @@ export OZEX_GPS_DEV=/dev/rfcomm0
 export OZEX_GPS_BAUDS=4800
 }}}
 
-== But... what's it? ==
+These settings have following meaning:
 
 OZEX_MAPS_PATH: map folder. May contain subfolders - will be scanned recursively.
 
@@ -57,15 +58,16 @@ OZEX_GPS_LOG: log file name (with path). Just a text file with raw NMEA data
 OZEX_GPS_DEV: filename of a real GPS device connected
 OZEX_GPS_BAUDS: gps baud rate :)
 
+
+There also a sample config (bashrc_t91.txt) for ASUS T91 netbook running  Ubuntu 9.10 Netbook Remix, designed for 1024x600 resolution.
+
 == Starting ozex ==
 {{{. bashrc.txt && ./ozex}}}
 
-== Miscellanious ==
+== Known issues ==
 
-* GUI part is very ugly at the moment because it was written in a big hurry in car while driving to trophy raid start.
+* GUI part is rather simple at the moment because it was written in a big hurry in car while driving to trophy raid start.
 
-* NB: time is not saved in track logs at the moment. 
+* Time is not saved in track logs at the moment. 
 
-* Maps with calibration points amount <= 2 does not supported.
-
-There is a sample config (bashrc_t91.txt) for ASUS T91 netbook running  Ubuntu 9.10 Netbook Remix, designed for 1024x600 resolution.
+* Maps with number of calibration points <= 2 are not supported (that's related more to swampex than ozex).
