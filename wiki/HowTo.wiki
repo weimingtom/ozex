@@ -8,11 +8,11 @@
 
 == Getting project from SVN ==
 
-{{{svn checkout http://ozex.googlecode.com/svn/trunk/ ozex-read-only}}}
+{{{svn checkout http://ozex.googlecode.com/svn/trunk/ ozex}}}
 
 == Compiling ==
 
-{{{cd ozex-read-only}}}
+{{{cd ozex}}}
 
 {{{dmake}}}
 
