@@ -1,4 +1,4 @@
-= ozex HowTo: Building and Using =
+= ozex !HowTo: Building and Using =
 
 <wiki:toc max_depth="2" />
 
@@ -66,8 +66,8 @@ There also a sample config (bashrc_t91.txt) for ASUS T91 netbook running  Ubuntu
 
 == Known issues ==
 
-* GUI part is rather simple at the moment because it was written in a big hurry in car while driving to trophy raid start.
+ * GUI part is rather simple at the moment because it was written in a big hurry in car while driving to trophy raid start.
 
-* Time is not saved in track logs at the moment. 
+ * Time is not saved in track logs at the moment. 
 
-* Maps with number of calibration points <= 2 are not supported (that's related more to swampex than ozex).
+ * Maps with number of calibration points <= 2 are not supported (that's related more to swampex than ozex).
